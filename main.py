@@ -35,6 +35,7 @@ def mail_automation(person_name, receiver_mail):
     with smtplib.SMTP_SSL('smtp.gmail.com', port, context=context) as server:
         server.login(email_sender, password)
         server.sendmail(email_sender, email_receiver, email_obj.as_string())
+        server.close()
 
 
 def today():
