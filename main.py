@@ -6,8 +6,8 @@ import excel_tracker
 
 
 def mail_automation(person_name, receiver_mail):
-    email_sender = "psmohammedalibackupvit@gmail.com"
-    password = 'vkfpysxsfnjyweuc'
+    email_sender = "mohammedali.wishes@gmail.com"
+    password = 'yfbxtssakiuobxhx'
     email_receiver = receiver_mail
     person_name = person_name
 
